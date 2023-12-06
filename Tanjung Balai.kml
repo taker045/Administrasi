@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Tanjung Balai.kml</name>
+	<Schema name="ADMINISTRASIKECAMATAN_AR_50K" id="S_ADMINISTRASIKECAMATAN_AR_50K_SSSSSDSSSSSSSSSSSSSSSSSSIDD">
+		<SimpleField type="string" name="KDPPUM"><displayName>&lt;b&gt;KDPPUM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="NAMOBJ"><displayName>&lt;b&gt;NAMOBJ&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="REMARK"><displayName>&lt;b&gt;REMARK&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="KDPBPS"><displayName>&lt;b&gt;KDPBPS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FCODE"><displayName>&lt;b&gt;FCODE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="LUASWH"><displayName>&lt;b&gt;LUASWH&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="UUPP"><displayName>&lt;b&gt;UUPP&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="SRS_ID"><displayName>&lt;b&gt;SRS_ID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="LCODE"><displayName>&lt;b&gt;LCODE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="METADATA"><displayName>&lt;b&gt;METADATA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="KDEBPS"><displayName>&lt;b&gt;KDEBPS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="KDEPUM"><displayName>&lt;b&gt;KDEPUM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="KDCBPS"><displayName>&lt;b&gt;KDCBPS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="KDCPUM"><displayName>&lt;b&gt;KDCPUM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="KDBBPS"><displayName>&lt;b&gt;KDBBPS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="KDBPUM"><displayName>&lt;b&gt;KDBPUM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="WADMKD"><displayName>&lt;b&gt;WADMKD&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="WIADKD"><displayName>&lt;b&gt;WIADKD&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="WADMKC"><displayName>&lt;b&gt;WADMKC&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="WIADKC"><displayName>&lt;b&gt;WIADKC&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="WADMKK"><displayName>&lt;b&gt;WADMKK&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="WIADKK"><displayName>&lt;b&gt;WIADKK&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="WADMPR"><displayName>&lt;b&gt;WADMPR&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="WIADPR"><displayName>&lt;b&gt;WIADPR&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="TIPADM"><displayName>&lt;b&gt;TIPADM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="SHAPE_Leng"><displayName>&lt;b&gt;SHAPE_Leng&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="SHAPE_Area"><displayName>&lt;b&gt;SHAPE_Area&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>KDPPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPPUM]</td></tr>
+  <tr><td><b>NAMOBJ</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/NAMOBJ]</td></tr>
+  <tr><td><b>REMARK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/REMARK]</td></tr>
+  <tr><td><b>KDPBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPBPS]</td></tr>
+  <tr><td><b>FCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/FCODE]</td></tr>
+  <tr><td><b>LUASWH</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LUASWH]</td></tr>
+  <tr><td><b>UUPP</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/UUPP]</td></tr>
+  <tr><td><b>SRS_ID</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SRS_ID]</td></tr>
+  <tr><td><b>LCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LCODE]</td></tr>
+  <tr><td><b>METADATA</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/METADATA]</td></tr>
+  <tr><td><b>KDEBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEBPS]</td></tr>
+  <tr><td><b>KDEPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEPUM]</td></tr>
+  <tr><td><b>KDCBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCBPS]</td></tr>
+  <tr><td><b>KDCPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCPUM]</td></tr>
+  <tr><td><b>KDBBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBBPS]</td></tr>
+  <tr><td><b>KDBPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBPUM]</td></tr>
+  <tr><td><b>WADMKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKD]</td></tr>
+  <tr><td><b>WIADKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKD]</td></tr>
+  <tr><td><b>WADMKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKC]</td></tr>
+  <tr><td><b>WIADKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKC]</td></tr>
+  <tr><td><b>WADMKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKK]</td></tr>
+  <tr><td><b>WIADKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKK]</td></tr>
+  <tr><td><b>WADMPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMPR]</td></tr>
+  <tr><td><b>WIADPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADPR]</td></tr>
+  <tr><td><b>TIPADM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/TIPADM]</td></tr>
+  <tr><td><b>SHAPE_Leng</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Leng]</td></tr>
+  <tr><td><b>SHAPE_Area</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffff55</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor0">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>KDPPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPPUM]</td></tr>
+  <tr><td><b>NAMOBJ</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/NAMOBJ]</td></tr>
+  <tr><td><b>REMARK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/REMARK]</td></tr>
+  <tr><td><b>KDPBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPBPS]</td></tr>
+  <tr><td><b>FCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/FCODE]</td></tr>
+  <tr><td><b>LUASWH</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LUASWH]</td></tr>
+  <tr><td><b>UUPP</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/UUPP]</td></tr>
+  <tr><td><b>SRS_ID</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SRS_ID]</td></tr>
+  <tr><td><b>LCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LCODE]</td></tr>
+  <tr><td><b>METADATA</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/METADATA]</td></tr>
+  <tr><td><b>KDEBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEBPS]</td></tr>
+  <tr><td><b>KDEPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEPUM]</td></tr>
+  <tr><td><b>KDCBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCBPS]</td></tr>
+  <tr><td><b>KDCPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCPUM]</td></tr>
+  <tr><td><b>KDBBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBBPS]</td></tr>
+  <tr><td><b>KDBPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBPUM]</td></tr>
+  <tr><td><b>WADMKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKD]</td></tr>
+  <tr><td><b>WIADKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKD]</td></tr>
+  <tr><td><b>WADMKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKC]</td></tr>
+  <tr><td><b>WIADKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKC]</td></tr>
+  <tr><td><b>WADMKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKK]</td></tr>
+  <tr><td><b>WIADKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKK]</td></tr>
+  <tr><td><b>WADMPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMPR]</td></tr>
+  <tr><td><b>WIADPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADPR]</td></tr>
+  <tr><td><b>TIPADM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/TIPADM]</td></tr>
+  <tr><td><b>SHAPE_Leng</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Leng]</td></tr>
+  <tr><td><b>SHAPE_Area</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff00ff</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="falseColor1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor2">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>KDPPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPPUM]</td></tr>
+  <tr><td><b>NAMOBJ</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/NAMOBJ]</td></tr>
+  <tr><td><b>REMARK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/REMARK]</td></tr>
+  <tr><td><b>KDPBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPBPS]</td></tr>
+  <tr><td><b>FCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/FCODE]</td></tr>
+  <tr><td><b>LUASWH</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LUASWH]</td></tr>
+  <tr><td><b>UUPP</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/UUPP]</td></tr>
+  <tr><td><b>SRS_ID</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SRS_ID]</td></tr>
+  <tr><td><b>LCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LCODE]</td></tr>
+  <tr><td><b>METADATA</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/METADATA]</td></tr>
+  <tr><td><b>KDEBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEBPS]</td></tr>
+  <tr><td><b>KDEPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEPUM]</td></tr>
+  <tr><td><b>KDCBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCBPS]</td></tr>
+  <tr><td><b>KDCPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCPUM]</td></tr>
+  <tr><td><b>KDBBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBBPS]</td></tr>
+  <tr><td><b>KDBPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBPUM]</td></tr>
+  <tr><td><b>WADMKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKD]</td></tr>
+  <tr><td><b>WIADKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKD]</td></tr>
+  <tr><td><b>WADMKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKC]</td></tr>
+  <tr><td><b>WIADKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKC]</td></tr>
+  <tr><td><b>WADMKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKK]</td></tr>
+  <tr><td><b>WIADKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKK]</td></tr>
+  <tr><td><b>WADMPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMPR]</td></tr>
+  <tr><td><b>WIADPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADPR]</td></tr>
+  <tr><td><b>TIPADM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/TIPADM]</td></tr>
+  <tr><td><b>SHAPE_Leng</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Leng]</td></tr>
+  <tr><td><b>SHAPE_Area</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffff55</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor3">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>KDPPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPPUM]</td></tr>
+  <tr><td><b>NAMOBJ</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/NAMOBJ]</td></tr>
+  <tr><td><b>REMARK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/REMARK]</td></tr>
+  <tr><td><b>KDPBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPBPS]</td></tr>
+  <tr><td><b>FCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/FCODE]</td></tr>
+  <tr><td><b>LUASWH</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LUASWH]</td></tr>
+  <tr><td><b>UUPP</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/UUPP]</td></tr>
+  <tr><td><b>SRS_ID</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SRS_ID]</td></tr>
+  <tr><td><b>LCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LCODE]</td></tr>
+  <tr><td><b>METADATA</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/METADATA]</td></tr>
+  <tr><td><b>KDEBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEBPS]</td></tr>
+  <tr><td><b>KDEPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEPUM]</td></tr>
+  <tr><td><b>KDCBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCBPS]</td></tr>
+  <tr><td><b>KDCPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCPUM]</td></tr>
+  <tr><td><b>KDBBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBBPS]</td></tr>
+  <tr><td><b>KDBPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBPUM]</td></tr>
+  <tr><td><b>WADMKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKD]</td></tr>
+  <tr><td><b>WIADKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKD]</td></tr>
+  <tr><td><b>WADMKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKC]</td></tr>
+  <tr><td><b>WIADKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKC]</td></tr>
+  <tr><td><b>WADMKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKK]</td></tr>
+  <tr><td><b>WIADKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKK]</td></tr>
+  <tr><td><b>WADMPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMPR]</td></tr>
+  <tr><td><b>WIADPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADPR]</td></tr>
+  <tr><td><b>TIPADM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/TIPADM]</td></tr>
+  <tr><td><b>SHAPE_Leng</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Leng]</td></tr>
+  <tr><td><b>SHAPE_Area</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000055</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="falseColor4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor6">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>KDPPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPPUM]</td></tr>
+  <tr><td><b>NAMOBJ</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/NAMOBJ]</td></tr>
+  <tr><td><b>REMARK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/REMARK]</td></tr>
+  <tr><td><b>KDPBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPBPS]</td></tr>
+  <tr><td><b>FCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/FCODE]</td></tr>
+  <tr><td><b>LUASWH</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LUASWH]</td></tr>
+  <tr><td><b>UUPP</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/UUPP]</td></tr>
+  <tr><td><b>SRS_ID</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SRS_ID]</td></tr>
+  <tr><td><b>LCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LCODE]</td></tr>
+  <tr><td><b>METADATA</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/METADATA]</td></tr>
+  <tr><td><b>KDEBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEBPS]</td></tr>
+  <tr><td><b>KDEPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEPUM]</td></tr>
+  <tr><td><b>KDCBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCBPS]</td></tr>
+  <tr><td><b>KDCPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCPUM]</td></tr>
+  <tr><td><b>KDBBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBBPS]</td></tr>
+  <tr><td><b>KDBPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBPUM]</td></tr>
+  <tr><td><b>WADMKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKD]</td></tr>
+  <tr><td><b>WIADKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKD]</td></tr>
+  <tr><td><b>WADMKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKC]</td></tr>
+  <tr><td><b>WIADKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKC]</td></tr>
+  <tr><td><b>WADMKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKK]</td></tr>
+  <tr><td><b>WIADKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKK]</td></tr>
+  <tr><td><b>WADMPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMPR]</td></tr>
+  <tr><td><b>WIADPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADPR]</td></tr>
+  <tr><td><b>TIPADM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/TIPADM]</td></tr>
+  <tr><td><b>SHAPE_Leng</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Leng]</td></tr>
+  <tr><td><b>SHAPE_Area</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7fff55</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor7">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>KDPPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPPUM]</td></tr>
+  <tr><td><b>NAMOBJ</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/NAMOBJ]</td></tr>
+  <tr><td><b>REMARK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/REMARK]</td></tr>
+  <tr><td><b>KDPBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPBPS]</td></tr>
+  <tr><td><b>FCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/FCODE]</td></tr>
+  <tr><td><b>LUASWH</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LUASWH]</td></tr>
+  <tr><td><b>UUPP</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/UUPP]</td></tr>
+  <tr><td><b>SRS_ID</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SRS_ID]</td></tr>
+  <tr><td><b>LCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LCODE]</td></tr>
+  <tr><td><b>METADATA</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/METADATA]</td></tr>
+  <tr><td><b>KDEBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEBPS]</td></tr>
+  <tr><td><b>KDEPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEPUM]</td></tr>
+  <tr><td><b>KDCBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCBPS]</td></tr>
+  <tr><td><b>KDCPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCPUM]</td></tr>
+  <tr><td><b>KDBBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBBPS]</td></tr>
+  <tr><td><b>KDBPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBPUM]</td></tr>
+  <tr><td><b>WADMKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKD]</td></tr>
+  <tr><td><b>WIADKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKD]</td></tr>
+  <tr><td><b>WADMKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKC]</td></tr>
+  <tr><td><b>WIADKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKC]</td></tr>
+  <tr><td><b>WADMKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKK]</td></tr>
+  <tr><td><b>WIADKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKK]</td></tr>
+  <tr><td><b>WADMPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMPR]</td></tr>
+  <tr><td><b>WIADPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADPR]</td></tr>
+  <tr><td><b>TIPADM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/TIPADM]</td></tr>
+  <tr><td><b>SHAPE_Leng</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Leng]</td></tr>
+  <tr><td><b>SHAPE_Area</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000055</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="falseColor8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor9">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>KDPPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPPUM]</td></tr>
+  <tr><td><b>NAMOBJ</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/NAMOBJ]</td></tr>
+  <tr><td><b>REMARK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/REMARK]</td></tr>
+  <tr><td><b>KDPBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPBPS]</td></tr>
+  <tr><td><b>FCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/FCODE]</td></tr>
+  <tr><td><b>LUASWH</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LUASWH]</td></tr>
+  <tr><td><b>UUPP</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/UUPP]</td></tr>
+  <tr><td><b>SRS_ID</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SRS_ID]</td></tr>
+  <tr><td><b>LCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LCODE]</td></tr>
+  <tr><td><b>METADATA</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/METADATA]</td></tr>
+  <tr><td><b>KDEBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEBPS]</td></tr>
+  <tr><td><b>KDEPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEPUM]</td></tr>
+  <tr><td><b>KDCBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCBPS]</td></tr>
+  <tr><td><b>KDCPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCPUM]</td></tr>
+  <tr><td><b>KDBBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBBPS]</td></tr>
+  <tr><td><b>KDBPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBPUM]</td></tr>
+  <tr><td><b>WADMKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKD]</td></tr>
+  <tr><td><b>WIADKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKD]</td></tr>
+  <tr><td><b>WADMKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKC]</td></tr>
+  <tr><td><b>WIADKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKC]</td></tr>
+  <tr><td><b>WADMKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKK]</td></tr>
+  <tr><td><b>WIADKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKK]</td></tr>
+  <tr><td><b>WADMPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMPR]</td></tr>
+  <tr><td><b>WIADPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADPR]</td></tr>
+  <tr><td><b>TIPADM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/TIPADM]</td></tr>
+  <tr><td><b>SHAPE_Leng</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Leng]</td></tr>
+  <tr><td><b>SHAPE_Area</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff00ff</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor10">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>KDPPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPPUM]</td></tr>
+  <tr><td><b>NAMOBJ</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/NAMOBJ]</td></tr>
+  <tr><td><b>REMARK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/REMARK]</td></tr>
+  <tr><td><b>KDPBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPBPS]</td></tr>
+  <tr><td><b>FCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/FCODE]</td></tr>
+  <tr><td><b>LUASWH</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LUASWH]</td></tr>
+  <tr><td><b>UUPP</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/UUPP]</td></tr>
+  <tr><td><b>SRS_ID</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SRS_ID]</td></tr>
+  <tr><td><b>LCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LCODE]</td></tr>
+  <tr><td><b>METADATA</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/METADATA]</td></tr>
+  <tr><td><b>KDEBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEBPS]</td></tr>
+  <tr><td><b>KDEPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEPUM]</td></tr>
+  <tr><td><b>KDCBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCBPS]</td></tr>
+  <tr><td><b>KDCPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCPUM]</td></tr>
+  <tr><td><b>KDBBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBBPS]</td></tr>
+  <tr><td><b>KDBPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBPUM]</td></tr>
+  <tr><td><b>WADMKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKD]</td></tr>
+  <tr><td><b>WIADKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKD]</td></tr>
+  <tr><td><b>WADMKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKC]</td></tr>
+  <tr><td><b>WIADKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKC]</td></tr>
+  <tr><td><b>WADMKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKK]</td></tr>
+  <tr><td><b>WIADKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKK]</td></tr>
+  <tr><td><b>WADMPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMPR]</td></tr>
+  <tr><td><b>WIADPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADPR]</td></tr>
+  <tr><td><b>TIPADM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/TIPADM]</td></tr>
+  <tr><td><b>SHAPE_Leng</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Leng]</td></tr>
+  <tr><td><b>SHAPE_Area</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff0055</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor11">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>KDPPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPPUM]</td></tr>
+  <tr><td><b>NAMOBJ</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/NAMOBJ]</td></tr>
+  <tr><td><b>REMARK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/REMARK]</td></tr>
+  <tr><td><b>KDPBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPBPS]</td></tr>
+  <tr><td><b>FCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/FCODE]</td></tr>
+  <tr><td><b>LUASWH</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LUASWH]</td></tr>
+  <tr><td><b>UUPP</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/UUPP]</td></tr>
+  <tr><td><b>SRS_ID</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SRS_ID]</td></tr>
+  <tr><td><b>LCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LCODE]</td></tr>
+  <tr><td><b>METADATA</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/METADATA]</td></tr>
+  <tr><td><b>KDEBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEBPS]</td></tr>
+  <tr><td><b>KDEPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEPUM]</td></tr>
+  <tr><td><b>KDCBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCBPS]</td></tr>
+  <tr><td><b>KDCPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCPUM]</td></tr>
+  <tr><td><b>KDBBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBBPS]</td></tr>
+  <tr><td><b>KDBPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBPUM]</td></tr>
+  <tr><td><b>WADMKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKD]</td></tr>
+  <tr><td><b>WIADKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKD]</td></tr>
+  <tr><td><b>WADMKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKC]</td></tr>
+  <tr><td><b>WIADKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKC]</td></tr>
+  <tr><td><b>WADMKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKK]</td></tr>
+  <tr><td><b>WIADKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKK]</td></tr>
+  <tr><td><b>WADMPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMPR]</td></tr>
+  <tr><td><b>WIADPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADPR]</td></tr>
+  <tr><td><b>TIPADM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/TIPADM]</td></tr>
+  <tr><td><b>SHAPE_Leng</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Leng]</td></tr>
+  <tr><td><b>SHAPE_Area</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff0055</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="falseColor12">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>KDPPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPPUM]</td></tr>
+  <tr><td><b>NAMOBJ</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/NAMOBJ]</td></tr>
+  <tr><td><b>REMARK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/REMARK]</td></tr>
+  <tr><td><b>KDPBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPBPS]</td></tr>
+  <tr><td><b>FCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/FCODE]</td></tr>
+  <tr><td><b>LUASWH</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LUASWH]</td></tr>
+  <tr><td><b>UUPP</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/UUPP]</td></tr>
+  <tr><td><b>SRS_ID</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SRS_ID]</td></tr>
+  <tr><td><b>LCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LCODE]</td></tr>
+  <tr><td><b>METADATA</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/METADATA]</td></tr>
+  <tr><td><b>KDEBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEBPS]</td></tr>
+  <tr><td><b>KDEPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEPUM]</td></tr>
+  <tr><td><b>KDCBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCBPS]</td></tr>
+  <tr><td><b>KDCPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCPUM]</td></tr>
+  <tr><td><b>KDBBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBBPS]</td></tr>
+  <tr><td><b>KDBPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBPUM]</td></tr>
+  <tr><td><b>WADMKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKD]</td></tr>
+  <tr><td><b>WIADKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKD]</td></tr>
+  <tr><td><b>WADMKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKC]</td></tr>
+  <tr><td><b>WIADKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKC]</td></tr>
+  <tr><td><b>WADMKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKK]</td></tr>
+  <tr><td><b>WIADKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKK]</td></tr>
+  <tr><td><b>WADMPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMPR]</td></tr>
+  <tr><td><b>WIADPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADPR]</td></tr>
+  <tr><td><b>TIPADM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/TIPADM]</td></tr>
+  <tr><td><b>SHAPE_Leng</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Leng]</td></tr>
+  <tr><td><b>SHAPE_Area</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d7fff55</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="falseColor13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>ADMINISTRASIKECAMATAN_AR_50K</name>
+		<open>1</open>
+		<Placemark>
+			<styleUrl>#falseColor4</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ADMINISTRASIKECAMATAN_AR_50K_SSSSSDSSSSSSSSSSSSSSSSSSIDD">
+					<SimpleData name="KDPPUM"></SimpleData>
+					<SimpleData name="NAMOBJ">DATUKBANDAR</SimpleData>
+					<SimpleData name="REMARK">Wilayah Administrasi Kecamatan</SimpleData>
+					<SimpleData name="KDPBPS"></SimpleData>
+					<SimpleData name="FCODE"></SimpleData>
+					<SimpleData name="LUASWH">0</SimpleData>
+					<SimpleData name="UUPP"></SimpleData>
+					<SimpleData name="SRS_ID"></SimpleData>
+					<SimpleData name="LCODE">BA0080</SimpleData>
+					<SimpleData name="METADATA"></SimpleData>
+					<SimpleData name="KDEBPS"></SimpleData>
+					<SimpleData name="KDEPUM"></SimpleData>
+					<SimpleData name="KDCBPS"></SimpleData>
+					<SimpleData name="KDCPUM"></SimpleData>
+					<SimpleData name="KDBBPS"></SimpleData>
+					<SimpleData name="KDBPUM"></SimpleData>
+					<SimpleData name="WADMKD"></SimpleData>
+					<SimpleData name="WIADKD"></SimpleData>
+					<SimpleData name="WADMKC"></SimpleData>
+					<SimpleData name="WIADKC"></SimpleData>
+					<SimpleData name="WADMKK">TANJUNGBALAI</SimpleData>
+					<SimpleData name="WIADKK"></SimpleData>
+					<SimpleData name="WADMPR">SUMATERA UTARA</SimpleData>
+					<SimpleData name="WIADPR"></SimpleData>
+					<SimpleData name="TIPADM">0</SimpleData>
+					<SimpleData name="SHAPE_Leng">0.155866</SimpleData>
+					<SimpleData name="SHAPE_Area">0.0014075</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							99.79617987700004,2.972543331000037,-0.0001000000047497451 99.79574081600005,2.972811151000014,-0.0001000000047497451 99.79466252700007,2.972638055000081,-0.0001000000047497451 99.79385652799998,2.972261942000056,-0.0001000000047497451 99.79331013199997,2.971339455000028,-0.0001000000047497451 99.79275062600011,2.97069785400002,-0.0001000000047497451 99.79209824200014,2.97047094699999,-0.0001000000047497451 99.79104678400007,2.970592080000061,-0.0001000000047497451 99.79015521700012,2.97094047400003,-0.0001000000047497451 99.78966312200009,2.971502582000016,-0.0001000000047497451 99.78899779600012,2.971797312000062,-0.0001000000047497451 99.78791948800007,2.971597459000033,-0.0001000000047497451 99.78739391800006,2.971127227000054,-0.0001000000047497451 99.78639484100006,2.970031182000055,-0.0001000000047497451 99.78551597700005,2.96952355600006,-0.0001000000047497451 99.78501012400011,2.969457042000032,-0.0001000000047497451 99.78450439400008,2.969564404000042,-0.0001000000047497451 99.78374608100005,2.970126699000004,-0.0001000000047497451 99.78333349800003,2.970193870000086,-0.0001000000047497451 99.78269450900008,2.970087324000064,-0.0001000000047497451 99.78162948500005,2.96984732800011,-0.0001000000047497451 99.78055558700005,2.969779667000108,-0.0001000000047497451 99.77988994000005,2.969619635000056,-0.0001000000047497451 99.77927753500006,2.969459569000081,-0.0001000000047497451 99.77829232800008,2.969152637999986,-0.0001000000047497451 99.77754682600006,2.969006038000046,-0.0001000000047497451 99.77720315900001,2.968992650000057,-0.0001000000047497451 99.77727164500004,2.968311264000034,-0.0001000000047497451 99.77733658800001,2.96822885400013,-0.0001000000047497451 99.77743261000012,2.968135059000083,-0.0001000000047497451 99.77752639500005,2.967983715000071,-0.0001000000047497451 99.777584241,2.967857286000042,-0.0001000000047497451 99.77762370699999,2.96771524600008,-0.0001000000047497451 99.77765753700002,2.967597356000078,-0.0001000000047497451 99.77774091700013,2.967333603000037,-0.0001000000047497451 99.77776767099999,2.967198675000065,-0.0001000000047497451 99.77778737200002,2.967080793999983,-0.0001000000047497451 99.777791459,2.966948027000109,-0.0001000000047497451 99.77776313300014,2.966855741000107,-0.0001000000047497451 99.77769666799999,2.966779102000041,-0.0001000000047497451 99.77759064000008,2.966711012000123,-0.0001000000047497451 99.77744649900012,2.966696913000035,-0.0001000000047497451 99.77728751400007,2.966709494999997,-0.0001000000047497451 99.77715893700007,2.966725207000058,-0.0001000000047497451 99.777079812,2.966732363000051,-0.0001000000047497451 99.77693143900011,2.966729629000064,-0.0001000000047497451 99.77680788700012,2.966721162000083,-0.0001000000047497451 99.77671179200007,2.966709869000028,-0.0001000000047497451 99.77662698300001,2.966673007000096,-0.0001000000047497451 99.77648140000008,2.96661630400008,-0.0001000000047497451 99.77639799800001,2.966570921000002,-0.0001000000047497451 99.77626022700008,2.966502533000019,-0.0001000000047497451 99.77616127400005,2.966447218000039,-0.0001000000047497451 99.77606799600005,2.966423143000005,-0.0001000000047497451 99.77596765500006,2.966401912000047,-0.0001000000047497451 99.77577902200004,2.966385011000048,-0.0001000000047497451 99.77566880200011,2.966380828000061,-0.0001000000047497451 99.77559108500003,2.966382304000024,-0.0001000000047497451 99.7754639140001,2.966386654000104,-0.0001000000047497451 99.77524828800001,2.966399477000006,-0.0001000000047497451 99.77508013800001,2.966405275000046,-0.0001000000047497451 99.774930349,2.966395441000031,-0.0001000000047497451 99.77481869800012,2.966367117000086,-0.0001000000047497451 99.77463523400013,2.966340695000058,-0.0001000000047497451 99.77360559300007,2.966139817000024,-0.0001000000047497451 99.77298102899998,2.965989636000148,-0.0001000000047497451 99.77243565499998,2.965843714000025,-0.0001000000047497451 99.77202511100006,2.965816498000011,-0.0001000000047497451 99.77158722600005,2.965825972000076,-0.0001000000047497451 99.77118580000008,2.965789580000022,-0.0001000000047497451 99.77097616700009,2.965690027000019,-0.0001000000047497451 99.77069798900006,2.965482910000028,-0.0001000000047497451 99.77048250500002,2.965149557000064,-0.0001000000047497451 99.77024761400008,2.964755765000096,-0.0001000000047497451 99.77011297800006,2.964607135000068,-0.0001000000047497451 99.76996494500015,2.964539638000039,-0.0001000000047497451 99.76979008300003,2.964584827000061,-0.0001000000047497451 99.76974531100005,2.964688515000047,-0.0001000000047497451 99.7697455640001,2.965053565000035,-0.0001000000047497451 99.76970541900006,2.965364562000108,-0.0001000000047497451 99.76962038800002,2.965617003000012,-0.0001000000047497451 99.7695038980001,2.965770315000027,-0.0001000000047497451 99.76931560900006,2.965851570000075,-0.0001000000047497451 99.76891841500013,2.965830944000047,-0.0001000000047497451 99.76839256800007,2.965537172000081,-0.0001000000047497451 99.76823994499999,2.965316445000004,-0.0001000000047497451 99.76811861300007,2.964951478000022,-0.0001000000047497451 99.76799726000002,2.964554964000068,-0.0001000000047497451 99.76782663700004,2.964244113000047,-0.0001000000047497451 99.76770547000005,2.964118009000045,-0.0001000000047497451 99.76752156200014,2.964050533999978,-0.0001000000047497451 99.76736911300009,2.964082187000039,-0.0001000000047497451 99.76718535700006,2.964235547000018,-0.0001000000047497451 99.766965744,2.964415972000038,-0.0001000000047497451 99.76666541400004,2.964600960000077,-0.0001000000047497451 99.76629440800009,2.964663895000048,-0.0001000000047497451 99.76596255600009,2.964659620000014,-0.0001000000047497451 99.76561724200009,2.964641832000061,-0.0001000000047497451 99.76531678800002,2.964646548000092,-0.0001000000047497451 99.76499385800004,2.964574664000019,-0.0001000000047497451 99.7647381500001,2.964435130000025,-0.0001000000047497451 99.76453174100008,2.964255000000029,-0.0001000000047497451 99.7642705630001,2.963965502000057,-0.0001000000047497451 99.76399684900008,2.963726830000053,-0.0001000000047497451 99.76379490900007,2.963524165000071,-0.0001000000047497451 99.76350662599997,2.963284267000086,-0.0001000000047497451 99.76325540600008,2.963149236000024,-0.0001000000047497451 99.76287860500008,2.962991759000064,-0.0001000000047497451 99.76244655700002,2.962761271999979,-0.0001000000047497451 99.7621818400001,2.962563154000053,-0.0001000000047497451 99.76205610700005,2.962315367000015,-0.0001000000047497451 99.76179465600012,2.961790798000057,-0.0001000000047497451 99.76166446000006,2.961574560000031,-0.0001000000047497451 99.7614402120001,2.961538662000098,-0.0001000000047497451 99.76115769700006,2.961543364000008,-0.0001000000047497451 99.76091552300001,2.961520997000036,-0.0001000000047497451 99.76067142500007,2.961416384000093,-0.0001000000047497451 99.76029462000007,2.961249890999986,-0.0001000000047497451 99.75997609299998,2.961056319000037,-0.0001000000047497451 99.75964639800007,2.960942670000066,-0.0001000000047497451 99.75952082900007,2.960933743000007,-0.0001000000047497451 99.75933696300005,2.960929362000044,-0.0001000000047497451 99.75910379700002,2.960965577000003,-0.0001000000047497451 99.7589424160001,2.961051318000063,-0.0001000000047497451 99.75879447,2.961110008000043,-0.0001000000047497451 99.75861960600012,2.961150690000052,-0.0001000000047497451 99.75841780200005,2.96114632200005,-0.0001000000047497451 99.75830118800008,2.961119362000018,-0.0001000000047497451 99.75819348500004,2.961006765000054,-0.0001000000047497451 99.75815744400006,2.960763422000063,-0.0001000000047497451 99.75815730600004,2.96056061499999,-0.0001000000047497451 99.75810272900009,2.96030255100006,-0.0001000000047497451 99.75802182000007,2.960023185000087,-0.0001000000047497451 99.75792754900006,2.95987903200007,-0.0001000000047497451 99.7576808080001,2.959734983000062,-0.0001000000047497451 99.75731099100004,2.959567400000065,-0.0001000000047497451 99.75705981000004,2.959486451000002,-0.0001000000047497451 99.756765728,2.959250442000019,-0.0001000000047497451 99.75656326400009,2.958900052000084,-0.0001000000047497451 99.75635463700002,2.958418618000018,-0.0001000000047497451 99.75634092900007,2.958193720000075,-0.0001000000047497451 99.75631522100007,2.957254905000135,-0.0001000000047497451 99.75628951500006,2.956316090000075,-0.0001000000047497451 99.75626380900009,2.955377275000015,-0.0001000000047497451 99.75623810100008,2.954438461000035,-0.0001000000047497451 99.75621239600007,2.953499644999975,-0.0001000000047497451 99.75618668900006,2.952560829000035,-0.0001000000047497451 99.75620380700008,2.952298259000052,-0.0001000000047497451 99.75610689600006,2.952097654000081,-0.0001000000047497451 99.75612739700007,2.951114571000075,-0.0001000000047497451 99.75614789800005,2.95013148900003,-0.0001000000047497451 99.75616840100007,2.949148406000024,-0.0001000000047497451 99.75618890200009,2.948165324000058,-0.0001000000047497451 99.7562094040001,2.947182242000093,-0.0001000000047497451 99.75622990700005,2.946199160000087,-0.0001000000047497451 99.75629881000003,2.945157814000017,-0.0001000000047497451 99.75636771200006,2.944116469000067,-0.0001000000047497451 99.75643661600007,2.943075125000076,-0.0001000000047497451 99.7565055190001,2.942033780000046,-0.0001000000047497451 99.75657442300009,2.940992435000056,-0.0001000000047497451 99.75664332699999,2.939951090000066,-0.0001000000047497451 99.75738077100006,2.939210646000072,-0.0001000000047497451 99.75811821500008,2.938470200999999,-0.0001000000047497451 99.75885565700015,2.937729756000085,-0.0001000000047497451 99.75959309800005,2.936989311000051,-0.0001000000047497451 99.76033054000004,2.936248865000057,-0.0001000000047497451 99.76100618100007,2.935525903999991,-0.0001000000047497451 99.7616818210001,2.934802941000045,-0.0001000000047497451 99.76235746100001,2.934079979000019,-0.0001000000047497451 99.76303310000007,2.933357017000033,-0.0001000000047497451 99.76370873700002,2.932634055000007,-0.0001000000047497451 99.76438437400009,2.931911091000061,-0.0001000000047497451 99.76506001000007,2.931188129000035,-0.0001000000047497451 99.76573564400006,2.930465165000089,-0.0001000000047497451 99.76642323500012,2.929821740000009,-0.0001000000047497451 99.76711082500002,2.929178314000049,-0.0001000000047497451 99.76779841400007,2.928534887000049,-0.0001000000047497451 99.76848600200005,2.927891461000089,-0.0001000000047497451 99.76917358900006,2.92724803400005,-0.0001000000047497451 99.76995221900006,2.926644381000143,-0.0001000000047497451 99.7707308480001,2.926040727000117,-0.0001000000047497451 99.77150947600001,2.92543707400005,-0.0001000000047497451 99.77228810400004,2.924833420000024,-0.0001000000047497451 99.77306673000008,2.924229764000077,-0.0001000000047497451 99.77384535700016,2.92362611000005,-0.0001000000047497451 99.7745522960001,2.924214501000053,-0.0001000000047497451 99.77525923900004,2.924802891000056,-0.0001000000047497451 99.77596618100006,2.925391280000098,-0.0001000000047497451 99.77667312200003,2.925979670000101,-0.0001000000047497451 99.77738006599998,2.926568058000023,-0.0001000000047497451 99.77808701100007,2.927156444000025,-0.0001000000047497451 99.77879395400005,2.927744832000028,-0.0001000000047497451 99.77950090000007,2.92833321800007,-0.0001000000047497451 99.78020784700006,2.928921604000072,-0.0001000000047497451 99.78091479300008,2.929509988000074,-0.0001000000047497451 99.78162174000005,2.930098371999996,-0.0001000000047497451 99.78232868800011,2.930686756000078,-0.0001000000047497451 99.78303563700005,2.93127514000004,-0.0001000000047497451 99.78374258699999,2.931863521000042,-0.0001000000047497451 99.78444953700006,2.932451904000044,-0.0001000000047497451 99.78515648800003,2.933040285000046,-0.0001000000047497451 99.78586344000006,2.933628665000088,-0.0001000000047497451 99.78657039300003,2.934217044000049,-0.0001000000047497451 99.78727734600001,2.934805424000091,-0.0001000000047497451 99.78798430000008,2.935393802000013,-0.0001000000047497451 99.78869125400001,2.935982180000014,-0.0001000000047497451 99.78939820900007,2.936570557000056,-0.0001000000047497451 99.79010516500006,2.937158933000017,-0.0001000000047497451 99.79081212200003,2.937747309000058,-0.0001000000047497451 99.79151907900005,2.93833568400006,-0.0001000000047497451 99.79222603700003,2.938924059000061,-0.0001000000047497451 99.79293299500006,2.939512432000062,-0.0001000000047497451 99.793639955,2.940100806000023,-0.0001000000047497451 99.79434691500011,2.940689178000104,-0.0001000000047497451 99.79505387700004,2.941277550000025,-0.0001000000047497451 99.79576083699999,2.941865920000026,-0.0001000000047497451 99.79646780000009,2.942454291000027,-0.0001000000047497451 99.79717476200007,2.943042662000028,-0.0001000000047497451 99.79788172600009,2.943631030000069,-0.0001000000047497451 99.79858869100006,2.94421939900007,-0.0001000000047497451 99.79828493300003,2.945150877000042,-0.0001000000047497451 99.797981175,2.946082356000015,-0.0001000000047497451 99.79767741800005,2.947013832000027,-0.0001000000047497451 99.79737366000006,2.94794531000004,-0.0001000000047497451 99.7970699020001,2.948876790000052,-0.0001000000047497451 99.79676614300007,2.949808267000025,-0.0001000000047497451 99.79646238500004,2.950739744999997,-0.0001000000047497451 99.79609574500012,2.951725649000037,-0.0001000000047497451 99.79572910400007,2.952711554000076,-0.0001000000047497451 99.79536246500004,2.953697460000035,-0.0001000000047497451 99.79499582300004,2.954683363000075,-0.0001000000047497451 99.79576672800003,2.955340895000043,-0.0001000000047497451 99.79653763500006,2.955998427000091,-0.0001000000047497451 99.7973085430001,2.956655958000018,-0.0001000000047497451 99.79725400300002,2.95769091500004,-0.0001000000047497451 99.79720203000004,2.958723977000064,-0.0001000000047497451 99.79715005800006,2.959757038000008,-0.0001000000047497451 99.79709808600008,2.960790100000072,-0.0001000000047497451 99.79704611400005,2.961823162000017,-0.0001000000047497451 99.79699414200014,2.962856224000041,-0.0001000000047497451 99.79688995200009,2.964049045000055,-0.0001000000047497451 99.79678576100009,2.965241865000068,-0.0001000000047497451 99.79673047900008,2.966276322000008,-0.0001000000047497451 99.79667519600009,2.967310779000067,-0.0001000000047497451 99.79661991300016,2.968345237000087,-0.0001000000047497451 99.79657887000008,2.969441022000026,-0.0001000000047497451 99.79653782700008,2.970536809000044,-0.0001000000047497451 99.79653848000005,2.971446314000037,-0.0001000000047497451 99.79651229000012,2.972048212000038,-0.0001000000047497451 99.79617987700004,2.972543331000037,-0.0001000000047497451 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ADMINISTRASIKECAMATAN_AR_50K_SSSSSDSSSSSSSSSSSSSSSSSSIDD">
+					<SimpleData name="KDPPUM"></SimpleData>
+					<SimpleData name="NAMOBJ">DATUKBANDAR TIMUR</SimpleData>
+					<SimpleData name="REMARK">Wilayah Administrasi Kecamatan</SimpleData>
+					<SimpleData name="KDPBPS"></SimpleData>
+					<SimpleData name="FCODE"></SimpleData>
+					<SimpleData name="LUASWH">0</SimpleData>
+					<SimpleData name="UUPP"></SimpleData>
+					<SimpleData name="SRS_ID"></SimpleData>
+					<SimpleData name="LCODE">BA0080</SimpleData>
+					<SimpleData name="METADATA"></SimpleData>
+					<SimpleData name="KDEBPS"></SimpleData>
+					<SimpleData name="KDEPUM"></SimpleData>
+					<SimpleData name="KDCBPS"></SimpleData>
+					<SimpleData name="KDCPUM"></SimpleData>
+					<SimpleData name="KDBBPS"></SimpleData>
+					<SimpleData name="KDBPUM"></SimpleData>
+					<SimpleData name="WADMKD"></SimpleData>
+					<SimpleData name="WIADKD"></SimpleData>
+					<SimpleData name="WADMKC"></SimpleData>
+					<SimpleData name="WIADKC"></SimpleData>
+					<SimpleData name="WADMKK">TANJUNGBALAI</SimpleData>
+					<SimpleData name="WIADKK"></SimpleData>
+					<SimpleData name="WADMPR">SUMATERA UTARA</SimpleData>
+					<SimpleData name="WIADPR"></SimpleData>
+					<SimpleData name="TIPADM">0</SimpleData>
+					<SimpleData name="SHAPE_Leng">0.192422</SimpleData>
+					<SimpleData name="SHAPE_Area">0.00150398</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							99.77427800899999,2.922642101000088,-0.0001000000047497451 99.77445363000008,2.922046374999998,-0.0001000000047497451 99.77477052600001,2.921064687000028,-0.0001000000047497451 99.77481703900001,2.920439564000024,-0.0001000000047497451 99.77476384400005,2.919540775000078,-0.0001000000047497451 99.77485693400008,2.91896076800005,-0.0001000000047497451 99.77434628100008,2.918707548000041,-0.0001000000047497451 99.774633247,2.917911243000062,-0.0001000000047497451 99.77501457700002,2.916888198000067,-0.0001000000047497451 99.77526141900006,2.916343689000018,-0.0001000000047497451 99.77596512300009,2.915753494000066,-0.0001000000047497451 99.77679899100009,2.915043238000092,-0.0001000000047497451 99.77711557500004,2.914659708000054,-0.0001000000047497451 99.77824832300007,2.915112997000069,-0.0001000000047497451 99.77926054600009,2.91558506900004,-0.0001000000047497451 99.7795128460001,2.915578996000017,-0.0001000000047497451 99.77985908500006,2.915655417000025,-0.0001000000047497451 99.78030512700006,2.915814328000024,-0.0001000000047497451 99.78096835900011,2.916102821999993,-0.0001000000047497451 99.78221562100011,2.916728890000035,-0.0001000000047497451 99.78306088600006,2.917217755000037,-0.0001000000047497451 99.78406804200006,2.917885626000061,-0.0001000000047497451 99.78410334600007,2.918027130000058,-0.0001000000047497451 99.78407997800001,2.918174573000027,-0.0001000000047497451 99.78416222999998,2.918327838999999,-0.0001000000047497451 99.78429723700005,2.918404408000099,-0.0001000000047497451 99.78447915500003,2.918439661999979,-0.0001000000047497451 99.78479015300013,2.918463032000074,-0.0001000000047497451 99.78507182400006,2.918504115000116,-0.0001000000047497451 99.78539455999999,2.918533373000018,-0.0001000000047497451 99.78547306300004,2.918659069000027,-0.0001000000047497451 99.78557299600004,2.918924366000075,-0.0001000000047497451 99.78556732499997,2.919207428999995,-0.0001000000047497451 99.78562607800008,2.919319432000069,-0.0001000000047497451 99.78581389400007,2.919395962000086,-0.0001000000047497451 99.78631847900009,2.919360225000047,-0.0001000000047497451 99.78671159700012,2.919348154000048,-0.0001000000047497451 99.78687009000009,2.91944829300006,-0.0001000000047497451 99.7869348390001,2.919743101000032,-0.0001000000047497451 99.78702472400005,2.920264490000006,-0.0001000000047497451 99.78741813200007,2.920671110000077,-0.0001000000047497451 99.78789966400007,2.921230993000039,-0.0001000000047497451 99.78844189200005,2.921918378000079,-0.0001000000047497451 99.7888236670001,2.92246653600003,-0.0001000000047497451 99.78903515500009,2.922832003000093,-0.0001000000047497451 99.78950709600014,2.923624492999997,-0.0001000000047497451 99.78976540200004,2.923813017000088,-0.0001000000047497451 99.79022911400011,2.92406036500009,-0.0001000000047497451 99.79097042700006,2.924398432000004,-0.0001000000047497451 99.79151037500002,2.924586756000038,-0.0001000000047497451 99.79194477500003,2.924869505000092,-0.0001000000047497451 99.79243970700009,2.925088459000063,-0.0001000000047497451 99.79369706700005,2.925861182000049,-0.0001000000047497451 99.79421945000014,2.926102590000039,-0.0001000000047497451 99.79541397100006,2.926639643000071,-0.0001000000047497451 99.7959128670001,2.926851581000021,-0.0001000000047497451 99.79626502100005,2.926992859000079,-0.0001000000047497451 99.797288493,2.927417923000077,-0.0001000000047497451 99.79863445300002,2.927795433000058,-0.0001000000047497451 99.79909807500009,2.927913041000076,-0.0001000000047497451 99.80039214800009,2.928260964000047,-0.0001000000047497451 99.80120202600011,2.928472676000058,-0.0001000000047497451 99.80242515000003,2.928779062000069,-0.0001000000047497451 99.80290050000015,2.92888486700007,-0.0001000000047497451 99.80349006900009,2.928979457000063,-0.0001000000047497451 99.80425867300006,2.928908138000037,-0.0001000000047497451 99.80552158100012,2.928718163000026,-0.0001000000047497451 99.80702541699996,2.928463199000033,-0.0001000000047497451 99.80770600500011,2.928391942000093,-0.0001000000047497451 99.80892332100008,2.928118915000004,-0.0001000000047497451 99.80956280200007,2.928000509000079,-0.0001000000047497451 99.81079326999996,2.92763809999999,-0.0001000000047497451 99.81114518900007,2.927449139999982,-0.0001000000047497451 99.81145599,2.927201239000095,-0.0001000000047497451 99.8117315840001,2.926947466000041,-0.0001000000047497451 99.81200728300006,2.926841118000074,-0.0001000000047497451 99.81230646100003,2.926746550000043,-0.0001000000047497451 99.81276750600013,2.926691248000064,-0.0001000000047497451 99.81314888500003,2.926673280000016,-0.0001000000047497451 99.81367105900007,2.92661982500003,-0.0001000000047497451 99.81389983399997,2.92653710100002,-0.0001000000047497451 99.81409338700011,2.926430813000018,-0.0001000000047497451 99.81421064000007,2.92629509600006,-0.0001000000047497451 99.81431029500004,2.926165288999991,-0.0001000000047497451 99.81450379100006,2.925982340000042,-0.0001000000047497451 99.81467977500007,2.925923242000028,-0.0001000000047497451 99.81487921599999,2.925846434000068,-0.0001000000047497451 99.81509623200004,2.925728335000009,-0.0001000000047497451 99.81532027000016,2.925384611000066,-0.0001000000047497451 99.81536698800006,2.925077930999991,-0.0001000000047497451 99.81539035200008,2.924930488000062,-0.0001000000047497451 99.81547831700004,2.924865556000005,-0.0001000000047497451 99.81563086600003,2.924853652000019,-0.0001000000047497451 99.81583625100008,2.924882986000048,-0.0001000000047497451 99.81605919100002,2.924847442000025,-0.0001000000047497451 99.8162079370001,2.924690522000031,-0.0001000000047497451 99.81653640600005,2.924531063000027,-0.0001000000047497451 99.81683544400006,2.924407007000114,-0.0001000000047497451 99.81715106900003,2.924269396000079,-0.0001000000047497451 99.81766322600008,2.924790512000111,-0.0001000000047497451 99.81863216600004,2.925236871999992,-0.0001000000047497451 99.81960110700004,2.925683232999994,-0.0001000000047497451 99.82057005000007,2.926129591000075,-0.0001000000047497451 99.82153899300006,2.926575948000036,-0.0001000000047497451 99.82232332900008,2.927027385000018,-0.0001000000047497451 99.82310766700004,2.92747882000008,-0.0001000000047497451 99.82389200500006,2.927930254000022,-0.0001000000047497451 99.82467634300009,2.928381689000084,-0.0001000000047497451 99.82523145200014,2.92953554300007,-0.0001000000047497451 99.82578656300007,2.930689397000057,-0.0001000000047497451 99.82683553300005,2.931271667999993,-0.0001000000047497451 99.82788450300008,2.931853938000049,-0.0001000000047497451 99.82880952800004,2.932358560000035,-0.0001000000047497451 99.82973455700007,2.932863182000061,-0.0001000000047497451 99.8306595840001,2.933367804000047,-0.0001000000047497451 99.83158461300006,2.933872422000072,-0.0001000000047497451 99.83250964300002,2.934377041000098,-0.0001000000047497451 99.83299493400006,2.935196782000058,-0.0001000000047497451 99.83348022600008,2.936016522000018,-0.0001000000047497451 99.83396551800006,2.936836263000058,-0.0001000000047497451 99.83445081200004,2.937656002000057,-0.0001000000047497451 99.83493610600011,2.938475742000017,-0.0001000000047497451 99.83542140200005,2.939295481000057,-0.0001000000047497451 99.835906697,2.940115218000057,-0.0001000000047497451 99.83612843700008,2.94108076600001,-0.0001000000047497451 99.83635017800005,2.942046313000004,-0.0001000000047497451 99.83657192000008,2.943011860000078,-0.0001000000047497451 99.83679366100002,2.943977405000031,-0.0001000000047497451 99.83701540300005,2.944942952000065,-0.0001000000047497451 99.83723714600001,2.945908498000018,-0.0001000000047497451 99.83745889099997,2.946874044000052,-0.0001000000047497451 99.83723953100001,2.947807992000069,-0.0001000000047497451 99.83702017100001,2.948741939000086,-0.0001000000047497451 99.83680081000013,2.949675887000063,-0.0001000000047497451 99.83658145200003,2.95060983300008,-0.0001000000047497451 99.83636209000008,2.951543780000097,-0.0001000000047497451 99.83614272900007,2.952477728000074,-0.0001000000047497451 99.83592336900006,2.953411676000011,-0.0001000000047497451 99.8353397260001,2.954464197000046,-0.0001000000047497451 99.83475608300013,2.955516720000122,-0.0001000000047497451 99.83417243900004,2.956569241000038,-0.0001000000047497451 99.83324744900004,2.956915026000031,-0.0001000000047497451 99.83232245700005,2.957260812000064,-0.0001000000047497451 99.83139746400013,2.957606596000097,-0.0001000000047497451 99.83047247300006,2.957952379000091,-0.0001000000047497451 99.8295474790001,2.958298162000084,-0.0001000000047497451 99.82862248399998,2.958643944000117,-0.0001000000047497451 99.82769749000006,2.95898972500003,-0.0001000000047497451 99.82674577600005,2.959181563000115,-0.0001000000047497451 99.82579406100001,2.959373401000081,-0.0001000000047497451 99.82484234600008,2.959565238000046,-0.0001000000047497451 99.82389063100004,2.959757075000011,-0.0001000000047497451 99.82293891500007,2.959948911000017,-0.0001000000047497451 99.82198719899998,2.960140745000062,-0.0001000000047497451 99.82103548200001,2.960332580000027,-0.0001000000047497451 99.82008376500004,2.960524412999992,-0.0001000000047497451 99.81913204600004,2.960716246000077,-0.0001000000047497451 99.81809815200006,2.96117663300008,-0.0001000000047497451 99.81706425900005,2.961637019000043,-0.0001000000047497451 99.81603036400007,2.962097405000046,-0.0001000000047497451 99.81486619899999,2.963473980000075,-0.0001000000047497451 99.81403167300004,2.964177089999978,-0.0001000000047497451 99.81319714400003,2.964880198000079,-0.0001000000047497451 99.81236261500008,2.965583307000061,-0.0001000000047497451 99.811611482,2.964860842000077,-0.0001000000047497451 99.81069670599997,2.96428822100002,-0.0001000000047497451 99.80978193200006,2.963715598000003,-0.0001000000047497451 99.80820432600011,2.963011096000066,-0.0001000000047497451 99.80720816500013,2.962476020000038,-0.0001000000047497451 99.80611349200001,2.961569209000028,-0.0001000000047497451 99.80553467600004,2.960704598000072,-0.0001000000047497451 99.805380023,2.960120611000074,-0.0001000000047497451 99.80542440700003,2.959307186999998,-0.0001000000047497451 99.80554501000006,2.958906548000062,-0.0001000000047497451 99.80601072900002,2.958194095000106,-0.0001000000047497451 99.80677490500005,2.957575122000051,-0.0001000000047497451 99.80683070400003,2.957368945000058,-0.0001000000047497451 99.80587848800008,2.957297650000035,-0.0001000000047497451 99.80492627200006,2.957226354000051,-0.0001000000047497451 99.803974057,2.957155057000027,-0.0001000000047497451 99.80302184000004,2.957083760000083,-0.0001000000047497451 99.80206962500007,2.957012461000019,-0.0001000000047497451 99.80111740800002,2.956941163000115,-0.0001000000047497451 99.80016519100013,2.956869862000051,-0.0001000000047497451 99.79921297600004,2.956798562000107,-0.0001000000047497451 99.79826075900007,2.956727260000083,-0.0001000000047497451 99.7973085430001,2.956655958000018,-0.0001000000047497451 99.79653763500006,2.955998427000091,-0.0001000000047497451 99.79576672800003,2.955340895000043,-0.0001000000047497451 99.79499582300004,2.954683363000075,-0.0001000000047497451 99.79536246500004,2.953697460000035,-0.0001000000047497451 99.79572910400007,2.952711554000076,-0.0001000000047497451 99.79609574500012,2.951725649000037,-0.0001000000047497451 99.79646238500004,2.950739744999997,-0.0001000000047497451 99.79676614300007,2.949808267000025,-0.0001000000047497451 99.7970699020001,2.948876790000052,-0.0001000000047497451 99.79737366000006,2.94794531000004,-0.0001000000047497451 99.79767741800005,2.947013832000027,-0.0001000000047497451 99.797981175,2.946082356000015,-0.0001000000047497451 99.79828493300003,2.945150877000042,-0.0001000000047497451 99.79858869100006,2.94421939900007,-0.0001000000047497451 99.79788172600009,2.943631030000069,-0.0001000000047497451 99.79717476200007,2.943042662000028,-0.0001000000047497451 99.79646780000009,2.942454291000027,-0.0001000000047497451 99.79576083699999,2.941865920000026,-0.0001000000047497451 99.79505387700004,2.941277550000025,-0.0001000000047497451 99.79434691500011,2.940689178000104,-0.0001000000047497451 99.793639955,2.940100806000023,-0.0001000000047497451 99.79293299500006,2.939512432000062,-0.0001000000047497451 99.79222603700003,2.938924059000061,-0.0001000000047497451 99.79151907900005,2.93833568400006,-0.0001000000047497451 99.79081212200003,2.937747309000058,-0.0001000000047497451 99.79010516500006,2.937158933000017,-0.0001000000047497451 99.78939820900007,2.936570557000056,-0.0001000000047497451 99.78869125400001,2.935982180000014,-0.0001000000047497451 99.78798430000008,2.935393802000013,-0.0001000000047497451 99.78727734600001,2.934805424000091,-0.0001000000047497451 99.78657039300003,2.934217044000049,-0.0001000000047497451 99.78586344000006,2.933628665000088,-0.0001000000047497451 99.78515648800003,2.933040285000046,-0.0001000000047497451 99.78444953700006,2.932451904000044,-0.0001000000047497451 99.78374258699999,2.931863521000042,-0.0001000000047497451 99.78303563700005,2.93127514000004,-0.0001000000047497451 99.78232868800011,2.930686756000078,-0.0001000000047497451 99.78162174000005,2.930098371999996,-0.0001000000047497451 99.78091479300008,2.929509988000074,-0.0001000000047497451 99.78020784700006,2.928921604000072,-0.0001000000047497451 99.77950090000007,2.92833321800007,-0.0001000000047497451 99.77879395400005,2.927744832000028,-0.0001000000047497451 99.77808701100007,2.927156444000025,-0.0001000000047497451 99.77738006599998,2.926568058000023,-0.0001000000047497451 99.77667312200003,2.925979670000101,-0.0001000000047497451 99.77596618100006,2.925391280000098,-0.0001000000047497451 99.77525923900004,2.924802891000056,-0.0001000000047497451 99.7745522960001,2.924214501000053,-0.0001000000047497451 99.77384535700016,2.92362611000005,-0.0001000000047497451 99.77427800899999,2.922642101000088,-0.0001000000047497451 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ADMINISTRASIKECAMATAN_AR_50K_SSSSSDSSSSSSSSSSSSSSSSSSIDD">
+					<SimpleData name="KDPPUM"></SimpleData>
+					<SimpleData name="NAMOBJ">SEITUALANGRASO</SimpleData>
+					<SimpleData name="REMARK">Wilayah Administrasi Kecamatan</SimpleData>
+					<SimpleData name="KDPBPS"></SimpleData>
+					<SimpleData name="FCODE"></SimpleData>
+					<SimpleData name="LUASWH">0</SimpleData>
+					<SimpleData name="UUPP"></SimpleData>
+					<SimpleData name="SRS_ID"></SimpleData>
+					<SimpleData name="LCODE">BA0080</SimpleData>
+					<SimpleData name="METADATA"></SimpleData>
+					<SimpleData name="KDEBPS"></SimpleData>
+					<SimpleData name="KDEPUM"></SimpleData>
+					<SimpleData name="KDCBPS"></SimpleData>
+					<SimpleData name="KDCPUM"></SimpleData>
+					<SimpleData name="KDBBPS"></SimpleData>
+					<SimpleData name="KDBPUM"></SimpleData>
+					<SimpleData name="WADMKD"></SimpleData>
+					<SimpleData name="WIADKD"></SimpleData>
+					<SimpleData name="WADMKC"></SimpleData>
+					<SimpleData name="WIADKC"></SimpleData>
+					<SimpleData name="WADMKK">TANJUNGBALAI</SimpleData>
+					<SimpleData name="WIADKK"></SimpleData>
+					<SimpleData name="WADMPR">SUMATERA UTARA</SimpleData>
+					<SimpleData name="WIADPR"></SimpleData>
+					<SimpleData name="TIPADM">0</SimpleData>
+					<SimpleData name="SHAPE_Leng">0.144754</SimpleData>
+					<SimpleData name="SHAPE_Area">0.000747877</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							99.78209325500006,3.009264589999998,0 99.78115450500012,3.009260169000112,0 99.78021575700006,3.009255746000106,0 99.77927700800001,3.009251323000059,0 99.77833825900008,3.009246897000053,0 99.77739950900015,3.009242472000047,0 99.77646075900009,3.00923804600004,0 99.77552200800004,3.009233620000034,0 99.77458325900005,3.009229190999987,0 99.77364450900012,3.00922476299998,0 99.77270575800003,3.009220333999973,0 99.77176700799998,3.009215904000047,0 99.77082825700008,3.00921147300004,0 99.76976686500007,3.009182787999984,0 99.7687054740001,3.009154104000049,0 99.76764408100001,3.009125417000034,0 99.76658268900007,3.009096730000058,0 99.76552129700008,3.009068041000003,0 99.76586926400013,3.008154608000004,0 99.76621722800006,3.007241178000086,0 99.76656519399999,3.006327745000008,0 99.76691315900008,3.00541431400005,0 99.76726112400006,3.004500882000012,0 99.76760908800007,3.003587450000054,0 99.76795705100005,3.002674018000056,0 99.76830501400006,3.001760587000057,0 99.76865297699999,3.000847155000059,0 99.76897569100008,3.00000000500003,0 99.76900094000001,2.999933723000061,-0.0001000000047497451 99.76939944000004,2.99910261700004,-0.0001000000047497451 99.76979793900004,2.998271511000019,-0.0001000000047497451 99.77019643699997,2.997440403999998,-0.0001000000047497451 99.77059493599999,2.996609298000057,-0.0001000000047497451 99.77099343300004,2.995778192000036,-0.0001000000047497451 99.77139193100004,2.994947086000015,-0.0001000000047497451 99.77179042700011,2.994115979000114,-0.0001000000047497451 99.77218892300003,2.993284871000053,-0.0001000000047497451 99.77258741900003,2.992453766000072,-0.0001000000047497451 99.77295239600005,2.991558932999974,-0.0001000000047497451 99.77331737100003,2.990664101000036,-0.0001000000047497451 99.77368234900005,2.989769268999978,-0.0001000000047497451 99.77404732400004,2.98887443600004,-0.0001000000047497451 99.77441229900002,2.987979604000062,-0.0001000000047497451 99.77477727300004,2.987084772000084,-0.0001000000047497451 99.77514224800007,2.986189939000026,-0.0001000000047497451 99.77550722200004,2.985295107000088,-0.0001000000047497451 99.77568169199998,2.984282836999985,-0.0001000000047497451 99.77585616000006,2.983270568000003,-0.0001000000047497451 99.77603063200007,2.98225829700006,-0.0001000000047497451 99.77620510100007,2.981246028000077,-0.0001000000047497451 99.77637957100012,2.980233759000055,-0.0001000000047497451 99.77655404100005,2.979221488000072,-0.0001000000047497451 99.77672850999998,2.97820921900005,-0.0001000000047497451 99.77677597400003,2.977287563000131,-0.0001000000047497451 99.77682344000004,2.976365905000051,-0.0001000000047497451 99.77687090300009,2.975444248000012,-0.0001000000047497451 99.7769183680001,2.974522591000053,-0.0001000000047497451 99.77696583300008,2.973600935000054,-0.0001000000047497451 99.77701329800004,2.972679277000014,-0.0001000000047497451 99.77706076400005,2.971757621000055,-0.0001000000047497451 99.77710822799999,2.970835964000096,-0.0001000000047497451 99.77715569300011,2.969914307000057,-0.0001000000047497451 99.77720315900001,2.968992650000057,-0.0001000000047497451 99.77754682600006,2.969006038000046,-0.0001000000047497451 99.77829232800008,2.969152637999986,-0.0001000000047497451 99.77927753500006,2.969459569000081,-0.0001000000047497451 99.77988994000005,2.969619635000056,-0.0001000000047497451 99.78055558700005,2.969779667000108,-0.0001000000047497451 99.78162948500005,2.96984732800011,-0.0001000000047497451 99.78269450900008,2.970087324000064,-0.0001000000047497451 99.78333349800003,2.970193870000086,-0.0001000000047497451 99.78374608100005,2.970126699000004,-0.0001000000047497451 99.78450439400008,2.969564404000042,-0.0001000000047497451 99.78501012400011,2.969457042000032,-0.0001000000047497451 99.78551597700005,2.96952355600006,-0.0001000000047497451 99.78639484100006,2.970031182000055,-0.0001000000047497451 99.78739391800006,2.971127227000054,-0.0001000000047497451 99.78791948800007,2.971597459000033,-0.0001000000047497451 99.78899779600012,2.971797312000062,-0.0001000000047497451 99.78966312200009,2.971502582000016,-0.0001000000047497451 99.79015521700012,2.97094047400003,-0.0001000000047497451 99.79104678400007,2.970592080000061,-0.0001000000047497451 99.79209824200014,2.97047094699999,-0.0001000000047497451 99.79275062600011,2.97069785400002,-0.0001000000047497451 99.79331013199997,2.971339455000028,-0.0001000000047497451 99.79385652799998,2.972261942000056,-0.0001000000047497451 99.79466252700007,2.972638055000081,-0.0001000000047497451 99.79574081600005,2.972811151000014,-0.0001000000047497451 99.79617987700004,2.972543331000037,-0.0001000000047497451 99.79651229000012,2.972048212000038,-0.0001000000047497451 99.79739070500007,2.972007330000013,-0.0001000000047497451 99.79828709100002,2.971924789000058,-0.0001000000047497451 99.79918347900004,2.971842248000023,-0.0001000000047497451 99.80007986500003,2.971759707000028,-0.0001000000047497451 99.80007334000004,2.972756943000046,-0.0001000000047497451 99.80006681400006,2.973754180000023,-0.0001000000047497451 99.80006029000005,2.974751416000041,-0.0001000000047497451 99.80064745900006,2.975271201000083,-0.0001000000047497451 99.80035750500014,2.975881982999979,-0.0001000000047497451 99.80009086300009,2.976402533000044,-0.0001000000047497451 99.79998614300003,2.977053055000072,-0.0001000000047497451 99.80014836000002,2.977589555000018,-0.0001000000047497451 99.80064239200004,2.978219391000012,-0.0001000000047497451 99.80104760500012,2.979105327000053,-0.0001000000047497451 99.80104787600003,2.979479332000023,-0.0001000000047497451 99.80079740500008,2.979983610000061,-0.0001000000047497451 99.80037718900009,2.980731928000067,-0.0001000000047497451 99.80002962700007,2.981244408000023,-0.0001000000047497451 99.79964930900009,2.981220293999987,-0.0001000000047497451 99.79936578500002,2.980773320000014,-0.0001000000047497451 99.79905792100004,2.980236927000077,-0.0001000000047497451 99.79855870600007,2.979668292000031,-0.0001000000047497451 99.79799813800012,2.979153499000042,-0.0001000000047497451 99.79761427500006,2.97895444900008,-0.0001000000047497451 99.79693083500011,2.979222086000002,-0.0001000000047497451 99.79660134900006,2.979342745000073,-0.0001000000047497451 99.79608667700005,2.979425895000039,-0.0001000000047497451 99.79570031000009,2.979602704000079,-0.0001000000047497451 99.79526166900008,2.980379748000064,-0.0001000000047497451 99.79524444200014,2.980856387000093,-0.0001000000047497451 99.79601791600003,2.981526633999994,-0.0001000000047497451 99.7963520620001,2.982020670000023,-0.0001000000047497451 99.79629972700013,2.982532642000018,-0.0001000000047497451 99.79580725300002,2.983120861000046,-0.0001000000047497451 99.79468326800007,2.983633609999985,-0.0001000000047497451 99.79440244600006,2.984004524000059,-0.0001000000047497451 99.79471466300004,2.984661264000041,-0.0001000000047497451 99.79568340600009,2.985538667000056,-0.0001000000047497451 99.79665215300003,2.986416068999991,-0.0001000000047497451 99.79731613500009,2.987799199000043,-0.0001000000047497451 99.79741909400006,2.989131492000086,-0.0001000000047497451 99.79670599700005,2.990361891000011,-0.0001000000047497451 99.79576277400007,2.990721294000052,-0.0001000000047497451 99.79481955100003,2.991080695000052,-0.0001000000047497451 99.79390167700011,2.991235098000038,-0.0001000000047497451 99.79298380400007,2.991389500000023,-0.0001000000047497451 99.79237237900007,2.992175699000046,-0.0001000000047497451 99.79176095100009,2.992961901000069,-0.0001000000047497451 99.79114952700002,2.993748101000011,-0.0001000000047497451 99.790487,2.994397685000041,-0.0001000000047497451 99.78982447500009,2.995047268000071,-0.0001000000047497451 99.78916195000011,2.99569685200006,-0.0001000000047497451 99.7882811840001,2.99619547300003,-0.0001000000047497451 99.78740041700009,2.996694093999999,-0.0001000000047497451 99.78651964800015,2.997192715000048,-0.0001000000047497451 99.7856388790001,2.997691335000057,-0.0001000000047497451 99.78475811000004,2.998189954000026,-0.0001000000047497451 99.78395856500003,2.999094978000048,-0.0001000000047497451 99.78315902000007,3.000000000000069,0 99.78314503200004,3.001202908999998,0 99.78356165500009,3.002445740000073,0 99.78454402600003,3.003602917000014,0 99.78544068000008,3.004245538000068,0 99.78430622300003,3.004252482000003,0 99.78317176500001,3.004259423000017,0 99.78203730800003,3.004266364999992,0 99.78204955800004,3.005360870000064,0 99.78206181000006,3.006455375000017,0 99.7820740610001,3.007549880000049,0 99.78208631300004,3.008644386000041,0 99.78209325500006,3.009264589999998,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor8</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ADMINISTRASIKECAMATAN_AR_50K_SSSSSDSSSSSSSSSSSSSSSSSSIDD">
+					<SimpleData name="KDPPUM"></SimpleData>
+					<SimpleData name="NAMOBJ">TANJUNGBALAI UTARA</SimpleData>
+					<SimpleData name="REMARK">Wilayah Administrasi Kecamatan</SimpleData>
+					<SimpleData name="KDPBPS"></SimpleData>
+					<SimpleData name="FCODE"></SimpleData>
+					<SimpleData name="LUASWH">0</SimpleData>
+					<SimpleData name="UUPP"></SimpleData>
+					<SimpleData name="SRS_ID"></SimpleData>
+					<SimpleData name="LCODE">BA0080</SimpleData>
+					<SimpleData name="METADATA"></SimpleData>
+					<SimpleData name="KDEBPS"></SimpleData>
+					<SimpleData name="KDEPUM"></SimpleData>
+					<SimpleData name="KDCBPS"></SimpleData>
+					<SimpleData name="KDCPUM"></SimpleData>
+					<SimpleData name="KDBBPS"></SimpleData>
+					<SimpleData name="KDBPUM"></SimpleData>
+					<SimpleData name="WADMKD"></SimpleData>
+					<SimpleData name="WIADKD"></SimpleData>
+					<SimpleData name="WADMKC"></SimpleData>
+					<SimpleData name="WIADKC"></SimpleData>
+					<SimpleData name="WADMKK">TANJUNGBALAI</SimpleData>
+					<SimpleData name="WIADKK"></SimpleData>
+					<SimpleData name="WADMPR">SUMATERA UTARA</SimpleData>
+					<SimpleData name="WIADPR"></SimpleData>
+					<SimpleData name="TIPADM">0</SimpleData>
+					<SimpleData name="SHAPE_Leng">0.0649032</SimpleData>
+					<SimpleData name="SHAPE_Area">0.000198513</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							99.81158599100002,2.966424009999997,-0.0001000000047497451 99.8108093670001,2.967264710000013,-0.0001000000047497451 99.81003274300006,2.968105412000028,-0.0001000000047497451 99.80970788100005,2.968989469000074,-0.0001000000047497451 99.80938301700014,2.96987352500004,-0.0001000000047497451 99.80905815500005,2.970757580000085,-0.0001000000047497451 99.80873329200007,2.971641637000051,-0.0001000000047497451 99.80840842800001,2.972525694000097,-0.0001000000047497451 99.80808356400007,2.973409749000062,-0.0001000000047497451 99.80764806200013,2.974408520000007,-0.0001000000047497451 99.80738404800006,2.975504716000019,-0.0001000000047497451 99.80700814900005,2.975811429999977,-0.0001000000047497451 99.80632724400003,2.976057082000079,-0.0001000000047497451 99.80572749000008,2.976067737000081,-0.0001000000047497451 99.80537172200003,2.97609864200008,-0.0001000000047497451 99.80509724700006,2.976088629000051,-0.0001000000047497451 99.80495299800003,2.975943146000004,-0.0001000000047497451 99.80442135800013,2.975133451000036,-0.0001000000047497451 99.80365801900008,2.973846967999987,-0.0001000000047497451 99.80329191599996,2.973642943000092,-0.0001000000047497451 99.8029666000001,2.973612537000054,-0.0001000000047497451 99.80236434900007,2.973788829000092,-0.0001000000047497451 99.80181555600008,2.973983308000117,-0.0001000000047497451 99.80122619600003,2.974310605000019,-0.0001000000047497451 99.80086055800007,2.974750100000012,-0.0001000000047497451 99.80064745900006,2.975271201000083,-0.0001000000047497451 99.80006029000005,2.974751416000041,-0.0001000000047497451 99.80006681400006,2.973754180000023,-0.0001000000047497451 99.80007334000004,2.972756943000046,-0.0001000000047497451 99.80007986500003,2.971759707000028,-0.0001000000047497451 99.79918347900004,2.971842248000023,-0.0001000000047497451 99.79828709100002,2.971924789000058,-0.0001000000047497451 99.79739070500007,2.972007330000013,-0.0001000000047497451 99.79651229000012,2.972048212000038,-0.0001000000047497451 99.79653848000005,2.971446314000037,-0.0001000000047497451 99.79653782700008,2.970536809000044,-0.0001000000047497451 99.79657887000008,2.969441022000026,-0.0001000000047497451 99.79661991300016,2.968345237000087,-0.0001000000047497451 99.79667519600009,2.967310779000067,-0.0001000000047497451 99.79673047900008,2.966276322000008,-0.0001000000047497451 99.79678576100009,2.965241865000068,-0.0001000000047497451 99.79688995200009,2.964049045000055,-0.0001000000047497451 99.79699414200014,2.962856224000041,-0.0001000000047497451 99.79704611400005,2.961823162000017,-0.0001000000047497451 99.79709808600008,2.960790100000072,-0.0001000000047497451 99.79715005800006,2.959757038000008,-0.0001000000047497451 99.79720203000004,2.958723977000064,-0.0001000000047497451 99.79725400300002,2.95769091500004,-0.0001000000047497451 99.7973085430001,2.956655958000018,-0.0001000000047497451 99.79826075900007,2.956727260000083,-0.0001000000047497451 99.79921297600004,2.956798562000107,-0.0001000000047497451 99.80016519100013,2.956869862000051,-0.0001000000047497451 99.80111740800002,2.956941163000115,-0.0001000000047497451 99.80206962500007,2.957012461000019,-0.0001000000047497451 99.80302184000004,2.957083760000083,-0.0001000000047497451 99.803974057,2.957155057000027,-0.0001000000047497451 99.80492627200006,2.957226354000051,-0.0001000000047497451 99.80587848800008,2.957297650000035,-0.0001000000047497451 99.80683070400003,2.957368945000058,-0.0001000000047497451 99.80677490500005,2.957575122000051,-0.0001000000047497451 99.80601072900002,2.958194095000106,-0.0001000000047497451 99.80554501000006,2.958906548000062,-0.0001000000047497451 99.80542440700003,2.959307186999998,-0.0001000000047497451 99.805380023,2.960120611000074,-0.0001000000047497451 99.80553467600004,2.960704598000072,-0.0001000000047497451 99.80611349200001,2.961569209000028,-0.0001000000047497451 99.80720816500013,2.962476020000038,-0.0001000000047497451 99.80820432600011,2.963011096000066,-0.0001000000047497451 99.80978193200006,2.963715598000003,-0.0001000000047497451 99.81069670599997,2.96428822100002,-0.0001000000047497451 99.811611482,2.964860842000077,-0.0001000000047497451 99.81236261500008,2.965583307000061,-0.0001000000047497451 99.81158599100002,2.966424009999997,-0.0001000000047497451 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor13</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ADMINISTRASIKECAMATAN_AR_50K_SSSSSDSSSSSSSSSSSSSSSSSSIDD">
+					<SimpleData name="KDPPUM"></SimpleData>
+					<SimpleData name="NAMOBJ">TELUKNIBUNG</SimpleData>
+					<SimpleData name="REMARK">Wilayah Administrasi Kecamatan</SimpleData>
+					<SimpleData name="KDPBPS"></SimpleData>
+					<SimpleData name="FCODE"></SimpleData>
+					<SimpleData name="LUASWH">0</SimpleData>
+					<SimpleData name="UUPP"></SimpleData>
+					<SimpleData name="SRS_ID"></SimpleData>
+					<SimpleData name="LCODE">BA0080</SimpleData>
+					<SimpleData name="METADATA"></SimpleData>
+					<SimpleData name="KDEBPS"></SimpleData>
+					<SimpleData name="KDEPUM"></SimpleData>
+					<SimpleData name="KDCBPS"></SimpleData>
+					<SimpleData name="KDCPUM"></SimpleData>
+					<SimpleData name="KDBBPS"></SimpleData>
+					<SimpleData name="KDBPUM"></SimpleData>
+					<SimpleData name="WADMKD"></SimpleData>
+					<SimpleData name="WIADKD"></SimpleData>
+					<SimpleData name="WADMKC"></SimpleData>
+					<SimpleData name="WIADKC"></SimpleData>
+					<SimpleData name="WADMKK">TANJUNGBALAI</SimpleData>
+					<SimpleData name="WIADKK"></SimpleData>
+					<SimpleData name="WADMPR">SUMATERA UTARA</SimpleData>
+					<SimpleData name="WIADPR"></SimpleData>
+					<SimpleData name="TIPADM">0</SimpleData>
+					<SimpleData name="SHAPE_Leng">0.13463</SimpleData>
+					<SimpleData name="SHAPE_Area">0.000661487</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							99.79690823600004,2.980292085000005,-0.0001000000047497451 99.79721512499997,2.981241426000056,-0.0001000000047497451 99.7975220150001,2.982190765000068,-0.0001000000047497451 99.79782890600008,2.983140105000119,-0.0001000000047497451 99.79813579800009,2.984089445000051,-0.0001000000047497451 99.79846359100007,2.985104823000051,-0.0001000000047497451 99.79879138500002,2.986120201000051,-0.0001000000047497451 99.79911918200007,2.987135581000131,-0.0001000000047497451 99.79943564000008,2.987999857000019,-0.0001000000047497451 99.79975210000005,2.988864133000066,-0.0001000000047497451 99.8003796540001,2.989701509000087,-0.0001000000047497451 99.80100720900002,2.990538884000067,-0.0001000000047497451 99.8016347640001,2.991376260000047,-0.0001000000047497451 99.80225544200006,2.992192756000018,-0.0001000000047497451 99.80287612000005,2.993009251000029,-0.0001000000047497451 99.80349680100005,2.993825746000041,-0.0001000000047497451 99.80417192000003,2.994483271000048,-0.0001000000047497451 99.80484704100006,2.995140794000055,-0.0001000000047497451 99.80552216300005,2.995798318000022,-0.0001000000047497451 99.80628418600014,2.996383341000026,-0.0001000000047497451 99.80704621000001,2.99696836200011,-0.0001000000047497451 99.80780823600014,2.997553383000033,-0.0001000000047497451 99.80850340000006,2.998165045000083,-0.0001000000047497451 99.80919856400004,2.998776707000093,-0.0001000000047497451 99.80989373000011,2.999388369000062,-0.0001000000047497451 99.81058886100004,3.000000000000069,0 99.81058889600008,3.000000030000072,0 99.81092136200006,3.000188906000032,0 99.81155022799997,3.000609524000022,0 99.81329632000008,3.000748584000057,0 99.81423921800011,3.000835606000103,0 99.81518211700008,3.000922626999989,0 99.81612501500007,3.001009647999995,0 99.81706791200007,3.001096665,0 99.81797595500014,3.001271438000073,0 99.81888399900005,3.001446207000065,0 99.81888446900005,3.002077836000088,0 99.81881534400009,3.003037032000075,0 99.81874621900005,3.003996226000023,0 99.81867709399999,3.004955420000091,0 99.81860798600007,3.005938008000015,0 99.81853887900007,3.00692059600006,0 99.81846977200011,3.007903183000065,0 99.81840066400007,3.00888577300003,0 99.81833155700002,3.009868360000034,0 99.81787830400002,3.010816148000077,0 99.81742505000012,3.01176393400004,0 99.81681445800012,3.01244866100002,0 99.81620386600012,3.013133387,0 99.81559327400004,3.0138181130001,0 99.81498268000007,3.014502838000079,0 99.81386578300003,3.015240581000009,0 99.81274888300003,3.015978323000059,0 99.81168403600009,3.016277392000104,0 99.81061919000007,3.016576459000069,0 99.80955434100009,3.016875527000034,0 99.80848949300008,3.017174592000078,0 99.80758165000002,3.01729223800002,0 99.80667380800013,3.017409885000082,0 99.80576596600007,3.017527530000064,0 99.8047882080001,3.017545802000057,0 99.80381045000006,3.01756407400005,0 99.8028326930001,3.017582344000043,0 99.80185493600005,3.017600615000076,0 99.80085374700003,3.01741420500004,0 99.79985255800013,3.017227795000044,0 99.79885137100014,3.017041383000088,0 99.79773358600006,3.016586028000061,0 99.79661580200006,3.016130670000035,0 99.79558081500004,3.015729641000067,0 99.79454582700005,3.015328611000019,0 99.79451715500004,3.014258103999974,0 99.79448848200006,3.013187597000089,0 99.79445981000005,3.012117089000044,0 99.79443113800004,3.011046582000119,0 99.79495182600003,3.009901329000044,0 99.79547251400002,3.00875607600001,0 99.79451635700009,3.00874810400011,0 99.79356020099999,3.008740131000049,0 99.79260404400014,3.008732157000029,0 99.79164788900005,3.008724181000089,0 99.79069173100011,3.008716206000028,0 99.78973557500014,3.008708228000088,0 99.78877941800003,3.008700251000067,0 99.7878232600001,3.008692273000086,0 99.78686710200009,3.008684294000066,0 99.78591094500011,3.008676314000085,0 99.78495478700005,3.008668334000064,0 99.78399862900004,3.008660351000043,0 99.78304247099997,3.008652369000062,0 99.78208631300004,3.008644386000041,0 99.7820740610001,3.007549880000049,0 99.78206181000006,3.006455375000017,0 99.78204955800004,3.005360870000064,0 99.78203730800003,3.004266364999992,0 99.78317176500001,3.004259423000017,0 99.78430622300003,3.004252482000003,0 99.78544068000008,3.004245538000068,0 99.78454402600003,3.003602917000014,0 99.78356165500009,3.002445740000073,0 99.78314503200004,3.001202908999998,0 99.78315902000007,3.000000000000069,0 99.78395856500003,2.999094978000048,-0.0001000000047497451 99.78475811000004,2.998189954000026,-0.0001000000047497451 99.7856388790001,2.997691335000057,-0.0001000000047497451 99.78651964800015,2.997192715000048,-0.0001000000047497451 99.78740041700009,2.996694093999999,-0.0001000000047497451 99.7882811840001,2.99619547300003,-0.0001000000047497451 99.78916195000011,2.99569685200006,-0.0001000000047497451 99.78982447500009,2.995047268000071,-0.0001000000047497451 99.790487,2.994397685000041,-0.0001000000047497451 99.79114952700002,2.993748101000011,-0.0001000000047497451 99.79176095100009,2.992961901000069,-0.0001000000047497451 99.79237237900007,2.992175699000046,-0.0001000000047497451 99.79298380400007,2.991389500000023,-0.0001000000047497451 99.79390167700011,2.991235098000038,-0.0001000000047497451 99.79481955100003,2.991080695000052,-0.0001000000047497451 99.79576277400007,2.990721294000052,-0.0001000000047497451 99.79670599700005,2.990361891000011,-0.0001000000047497451 99.79741909400006,2.989131492000086,-0.0001000000047497451 99.79731613500009,2.987799199000043,-0.0001000000047497451 99.79665215300003,2.986416068999991,-0.0001000000047497451 99.79568340600009,2.985538667000056,-0.0001000000047497451 99.79471466300004,2.984661264000041,-0.0001000000047497451 99.79440244600006,2.984004524000059,-0.0001000000047497451 99.79468326800007,2.983633609999985,-0.0001000000047497451 99.79580725300002,2.983120861000046,-0.0001000000047497451 99.79629972700013,2.982532642000018,-0.0001000000047497451 99.7963520620001,2.982020670000023,-0.0001000000047497451 99.79601791600003,2.981526633999994,-0.0001000000047497451 99.79524444200014,2.980856387000093,-0.0001000000047497451 99.79526166900008,2.980379748000064,-0.0001000000047497451 99.79570031000009,2.979602704000079,-0.0001000000047497451 99.79608667700005,2.979425895000039,-0.0001000000047497451 99.79660134900006,2.979342745000073,-0.0001000000047497451 99.79690823600004,2.980292085000005,-0.0001000000047497451 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
